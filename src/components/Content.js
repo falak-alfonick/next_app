@@ -3,7 +3,6 @@ import pic from "../../public/pic.png";
 import Image from 'next/image';
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import AddToCart from './AddToCart';
-import cloth from '../../public/cloth.jpg';
 
 export default function Content() {
     return (
@@ -65,24 +64,6 @@ export default function Content() {
             <div className="pt-4">
                 <AddToCart />
             </div>
-            {/* <div className="mt-10 ">
-                <div className="inline-flex">
-                    <h1 className="text-4xl font-medium"> <text className='text-red-300 '>David Moore's</text> Latest Collection In Our Exlusive Video</h1>
-                    <div className="max-w-screen-sm pl-32">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque aliquid magnam 
-                            beatae hic deserunt tempora iure illo labore nemo cupiditate aut, accusamus incidunt, 
-                            non unde itaque minus expedita quis! 
-                        </h3>
-                    </div>
-                </div>
-                <div className="pt-5">
-                    <div>
-                        <Image src={cloth} 
-                            width={600}
-                        />
-                    </div>
-                </div>
-            </div> */}
         </div>
     )
 }

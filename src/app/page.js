@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <main >
+    <main className="min-h-screen">
       <div style={{backgroundColor: "#EEDDCC"}}>
         <Header />
       </div>
