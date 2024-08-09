@@ -1,5 +1,8 @@
 import React from 'react'
 import pic from "../../public/pic.png";
+import image from "../../public/image.png";
+import image1 from "../../public/image1.png"
+import image2 from "../../public/image2.png"
 import Image from 'next/image';
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import AddToCart from './AddToCart';
@@ -19,13 +22,13 @@ export default function Content() {
                     </div>
                     <h3 className="pt-5">Hurry, Before It's Too Late!</h3>
                 </div>
-                <div style={{borderWidth:1, borderColor: "black", width:'250px'}}>
-                    <Image src={pic} width={435} 
+                <div>
+                    <Image src={image} width={250} 
                         style={{position:"absolute", right:"450px", top:"750px"}}
                     />
                 </div>
-                <div style={{borderWidth:1, borderColor: "black", width:'250px', height:"235px"}}>
-                    <Image src={pic} width={375} 
+                <div >
+                    <Image src={image1} width={230} 
                         style={{position:"absolute", right:"150px", top:"750px"}}
                     />
                 </div>
