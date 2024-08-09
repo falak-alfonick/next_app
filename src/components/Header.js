@@ -33,7 +33,8 @@ export default function Header() {
                     <div className="relative">
                         <CiSearch color="black" className="absolute top-2.5 m-1 transform -translate-y-1/2 text-neutral-500" />
                         <input
-                            className="pl-7 text-neutral-600"
+                            style={{backgroundColor: "#EEDDCC", borderWidth: 1}}
+                            className="pl-7 text-black border-neutral-500"
                             placeholder="Search for products.."
                         />
                         <div className="inline-flex gap-2 pt-1 pl-5">
