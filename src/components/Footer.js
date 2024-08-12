@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaTwitter, FaFacebookF, FaInstagram, FaGithub, FaRegCopyright, 
     FaCcVisa, FaCcMastercard, FaCcPaypal, FaApplePay, FaGooglePay } from "react-icons/fa";
+import Testimonial from './Testimonial';
 
 export default function Footer() {
     return (

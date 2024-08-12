@@ -8,7 +8,7 @@ export default function Home() {
       <div style={{backgroundColor: "#EEDDCC"}}>
         <Header />
       </div>
-      <div style={{backgroundColor: "#f0e4e4"}}>
+      <div style={{backgroundColor: "#faf5f5"}}>
         <Content />
       </div>
       <div style={{backgroundColor: "#34251F"}}>
