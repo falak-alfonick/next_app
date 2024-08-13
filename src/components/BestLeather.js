@@ -9,8 +9,8 @@ export default function BestLeather() {
                     <Image src={best} width={450} />
                 </div>
                 <div>
-                    <h1 className="text-5xl font-medium">Best <text className='text-red-300'>Leather Jackets</text> And It, Started Since 2014</h1>
-                    <h3 className="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque aliquid magnam 
+                    <h1 style={{color:"#34251F"}} className="text-5xl font-medium">Best <span style={{color:"#D3A17E"}}>Leather Jackets</span> And It, Started Since 2014</h1>
+                    <h3 style={{color:"#34251F"}} className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque aliquid magnam 
                         beatae hic deserunt tempora iure illo labore nemo cupiditate aut, accusamus incidunt, 
                         non unde itaque minus expedita quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque aliquid magnam 
                         beatae hic deserunt tempora iure illo labore nemo cupiditate aut, accusamus incidunt, 
@@ -20,22 +20,22 @@ export default function BestLeather() {
                         <div className="gap-7 p-6 text-center inline-flex">
                             <div>
                                 <h1 className="text-4xl">2014</h1>
-                                <p className="pt-2 text-red-300">David Moore Started</p>
+                                <p style={{color:"#D3A17E"}} className="pt-2">David Moore Started</p>
                             </div>
                             <h1 className="text-4xl">|</h1>
                             <div>
                                 <h1 className="text-4xl"> 8900+</h1>
-                                <p className="pt-2 text-red-300">Product Sold</p>
+                                <p style={{color:"#D3A17E"}} className="pt-2">Product Sold</p>
                             </div>
                             <h1 className="text-4xl">|</h1>
                             <div>
                                 <h1 className="text-4xl"> 3105+</h1>
-                                <p className="pt-2 text-red-300">Best Reviews</p>
+                                <p style={{color:"#D3A17E"}} className="pt-2">Best Reviews</p>
                             </div>
                         </div>
                     </div>
                     <div className="pt-8">
-                        <button className="bg-stone-700 pl-4 pr-4 pt-1.5 pb-1.5 text-white">Start Shopping Now</button>
+                        <button style={{backgroundColor:"#34251F"}} className="pl-6 pr-6 pt-2.5 pb-2.5 text-sm text-white">Start Shopping Now</button>
                     </div>
                 </div>
             </div>

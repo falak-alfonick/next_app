@@ -31,31 +31,31 @@ export default function Header() {
                             <h1 className="font-poppins font-medium text-lg tracking-tight">Faqs</h1>
                         </a>
                     </div>
-                    <div className="relative pt-3 pl-16">
-                        <IoSearch color="black" size={18} className="absolute mr-5 right-72 mt-3 text-neutral-500" />
+                    <div className="relative pt-3 pl-14">
+                        <IoSearch color="black" size={19} className="absolute mr-7 right-72 mt-2.5 text-neutral-500" />
                         <input
                             style={{backgroundColor: "#EEDDCC", borderWidth: 1, borderColor: "#34251F"}}
-                            className="pl-12 pt-2 pb-2 pr-5 text-black text-sm placeholder-yellow-950"
+                            className="pl-10 pt-2 pb-2 pr-4 text-black text-sm placeholder-yellow-950"
                             placeholder="Search for products.."
                         />
-                        <div className="inline-flex gap-3 pt-1.5 pl-2">
-                            <FaRegUser color='#5e5252' size={20}/>
-                            <FaRegHeart color='#5e5252' size={20}/>
-                            <MdOutlineShoppingBag color="#5e5252" size={20}/>
+                        <div className="inline-flex gap-3 pl-5">
+                            <FaRegUser color='#5e5252' size={20} className="mt-1"/>
+                            <FaRegHeart color='#5e5252' size={20} className="mt-1"/>
+                            <MdOutlineShoppingBag color="#5e5252" size={20} className="mt-1"/>
                         </div>
                     </div>
                 </div>
                 <div className="pt-24 inline-flex">
                     <div className="max-w-screen-md">
-                        <text className="bg-white p-2 pl-3 pr-3 font-lato">Explore Fashion Like Never Before</text>
-                        <h1 className="pt-10 pb-5 text-5xl font-franl_ruhl_libre font-medium text-stone-700">
+                        <span className="bg-white p-4 pl-7 pr-7 font-lato font-medium">Explore Fashion Like Never Before</span>
+                        <h1 style={{color:"#34251F"}} className="pt-10 pb-5 text-5xl font-franl_ruhl_libre font-medium">
                             Elevate Your Style With <text className="text-black">David Moore</text> Where Leather Speaks Volumes
                         </h1>
-                        <p>
+                        <p style={{color: "rgba(0, 0, 0, 0.7)"}}>
                             Step Into The World Of Peter Sign, Where Leather Transcends Mere <br/> Fashion And Becomes A Symbol Of Individuality And Confidence. With <br/> A Commitment To Quality And Style
                         </p>
                         <div className="mt-8">
-                            <button className="bg-stone-700 pl-4 pr-4 pt-1 pb-1 text-white">Shop Now</button>
+                            <button style={{backgroundColor:"#34251F"}} className="pl-6 pr-6 pt-2.5 pb-2.5 text-white">Shop Now</button>
                         </div>
                     </div>
                     <div style={{borderBottomLeftRadius: "30%", backgroundColor: "#D3A17E", width: "350px"}}>

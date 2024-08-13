@@ -1,20 +1,31 @@
 import React from 'react'
+import Image from 'next/image';
+import logo from '../../public/Black.png'
+import copy from '../../public/copy.png'
+import money from '../../public/money.png'
 import { FaTwitter, FaFacebookF, FaInstagram, FaGithub, FaRegCopyright, 
     FaCcVisa, FaCcMastercard, FaCcPaypal, FaApplePay, FaGooglePay } from "react-icons/fa";
-import Testimonial from './Testimonial';
 
 export default function Footer() {
     return (
         <div className="pt-16 pl-24 pb-10">
             <div className="gap-7 inline-flex">
                 <div className="w-64">
-                    <h1 className="text-white font-medium">DAVID MOORE</h1>
-                    <h4 className="text-slate-300">We have clothes that suits your style and which you're proud to wear. From women to men.</h4>
-                    <div className="inline-flex gap-4 pt-6">
-                        <FaTwitter color='pink' />
-                        <FaFacebookF color='pink'/>
-                        <FaInstagram color='pink'/>
-                        <FaGithub color='pink'/>
+                    <Image src={logo} style={{width:"180px", height:"25px"}}/>
+                    <h4 className="text-slate-300 text-sm pt-4">We have clothes that suits your style and which you're proud to wear. From women to men.</h4>
+                    <div className="inline-flex gap-1 pt-10">
+                        <button className='mx-2 flex items-center justify-center' style={{ width: 27, height: 27, borderRadius: 25, backgroundColor: "#FFFFFF",}}>
+                            <FaTwitter size={13} color='#C49C7C' />
+                        </button>
+                        <button className='mx-2 flex items-center justify-center' style={{ width: 27, height: 27, borderRadius: 25, backgroundColor: "#FFFFFF",}}>
+                            <FaFacebookF size={13} color='#C49C7C' />
+                        </button>
+                        <button className='mx-2 flex items-center justify-center' style={{ width: 27, height: 27, borderRadius: 25, backgroundColor: "#FFFFFF",}}>
+                            <FaInstagram size={13} color='#C49C7C' />
+                        </button>
+                        <button className='mx-2 flex items-center justify-center' style={{ width: 27, height: 27, borderRadius: 25, backgroundColor: "#FFFFFF",}}>
+                            <FaGithub size={13} color='#C49C7C' />
+                        </button>
                     </div>
                 </div>
                 <div className="grid grid-cols-6 divide-x divide-transparent ">
@@ -74,17 +85,11 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="pt-10 inline-flex gap-2 text-white">
-                <p>Peter Sign </p>
-                <FaRegCopyright/> 
-                <p>2000-2023, All Rights Reserved</p>
+            <div className="pt-20 inline-flex gap-2 text-white">
+                <Image src={copy} />
             </div>
-            <div style={{position:"absolute", left:"900px"}} className="inline-flex pl-44 pt-10 gap-3">
-                <FaCcVisa color='white' size={26} />
-                <FaCcMastercard color='white' size={26} />
-                <FaCcPaypal color='white' size={26} />
-                <FaApplePay color='white' size={26} />
-                <FaGooglePay color='white' size={26} />
+            <div style={{position:"absolute", left:"800px"}} className="inline-flex pl-40 pt-14 gap-3">
+                <Image src={money} />
             </div>
         </div>
     )
