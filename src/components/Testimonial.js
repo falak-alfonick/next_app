@@ -9,15 +9,15 @@ export default function Testimonial() {
     return (
         <div className="mt-10">
             <h1 style={{color:"#34251F"}} className="flex items-center justify-center text-4xl font-medium">T <span style={{color:"#D3A17E"}}>estimonials</span></h1>
-            <div className="pt-12 inline-flex">
-                <div style={{width:"25%"}}>
-                    <Image src={fram1} />
+            <div className="flex flex-col lg:flex-row lg:pt-12 pt-6 gap-3 lg:gap-1">
+                <div>
+                    <Image src={fram1} width={340}/>
                 </div>
-                <div style={{width:"50%"}}>
-                    <Image src={fram2}  className="pl-4 pr-4"/>
+                <div>
+                    <Image src={fram2} width={680} className="pl-4 pr-4"/>
                 </div>
-                <div style={{width:"25%"}}>
-                    <Image src={fram3} />
+                <div>
+                    <Image src={fram3} width={340} />
                 </div>
             </div>
             <div className="flex items-center justify-center pt-14 pb-10">

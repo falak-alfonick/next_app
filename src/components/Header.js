@@ -11,10 +11,10 @@ import logo from "../../public/logo.png"
 export default function Header() {
     return (
         <div>
-            <div className="pt-12 pl-24 pr-14 pb-32">
-                <div className="inline-flex">
+            <div className="pt-12 lg:pl-24 pl-12 pr-14 lg:pb-12">
+                <div className="flex flex-col lg:flex-row">
                     <Image src={logo} style={{width:"224px", height:"37px"}}/>
-                    <div className="inline-flex gap-11 pt-4 pl-32">
+                    <div className="flex flex-col md:flex-row lg:flex-row md:gap-5 lg:gap-11 gap-2 lg:pt-4 pt-3 lg:pl-32">
                         <a href="/">
                             <h1 className="font-poppins font-medium text-lg tracking-tight">Home</h1>
                         </a>
@@ -31,24 +31,24 @@ export default function Header() {
                             <h1 className="font-poppins font-medium text-lg tracking-tight">Faqs</h1>
                         </a>
                     </div>
-                    <div className="relative pt-3 pl-14">
-                        <IoSearch color="black" size={19} className="absolute mr-7 right-72 mt-2.5 text-neutral-500" />
+                    <div className="relative pl-0 lg:pt-3 pt-6 lg:pl-14">
+                        <IoSearch color="black" size={19} className="absolute mt-2 ml-4 lg:mr-7 lg:right-72 lg:mt-2.5 text-neutral-500" />
                         <input
                             style={{backgroundColor: "#EEDDCC", borderWidth: 1, borderColor: "#34251F"}}
                             className="pl-10 pt-2 pb-2 pr-4 text-black text-sm placeholder-yellow-950"
                             placeholder="Search for products.."
                         />
-                        <div className="inline-flex gap-3 pl-5">
+                        <div className="inline-flex lg:pt-0 pt-4 gap-4 lg:gap-3 lg:pl-5">
                             <FaRegUser color='#5e5252' size={20} className="mt-1"/>
                             <FaRegHeart color='#5e5252' size={20} className="mt-1"/>
                             <MdOutlineShoppingBag color="#5e5252" size={20} className="mt-1"/>
                         </div>
                     </div>
                 </div>
-                <div className="pt-24 inline-flex">
-                    <div className="max-w-screen-md">
-                        <span className="bg-white p-4 pl-7 pr-7 font-lato font-medium">Explore Fashion Like Never Before</span>
-                        <h1 style={{color:"#34251F"}} className="pt-10 pb-5 text-5xl font-franl_ruhl_libre font-medium">
+                <div className=" flex flex-col lg:flex-row pt-24">
+                    <div className="lg:max-w-screen-md">
+                        <span className="bg-white text-sm lg:text-lg px-2 py-3 lg:px-7 font-lato font-medium">Explore Fashion Like Never Before</span>
+                        <h1 style={{color:"#34251F"}} className="pt-10 pb-5 text-3xl lg:text-5xl font-franl_ruhl_libre font-medium">
                             Elevate Your Style With <text className="text-black">David Moore</text> Where Leather Speaks Volumes
                         </h1>
                         <p style={{color: "rgba(0, 0, 0, 0.7)"}}>
@@ -58,16 +58,18 @@ export default function Header() {
                             <button style={{backgroundColor:"#34251F"}} className="pl-6 pr-6 pt-2.5 pb-2.5 text-white">Shop Now</button>
                         </div>
                     </div>
-                    <div style={{borderBottomLeftRadius: "30%", backgroundColor: "#D3A17E", width: "350px"}}>
+                    <div className="lg:pt-0 lg:pl-16">
                         <div>
-                            <Image src={dots} width={70}
-                                style={{position:"absolute", top:"250px", right:"110px"}} 
+                            <Image src={dots} width={70} className="left-56 md:left-60 lg:left-64 top-20"
+                                style={{position:"relative"}} 
                             />
-                            <Image src={pic} width={610}
-                                style={{ position:"absolute", top:"140px", right:"66px"}}
-                            />
-                            <Image src={dots} width={70}
-                                style={{position:"absolute", top:"455px", right:"455px"}} 
+                            <div style={{borderBottomLeftRadius: "30%", backgroundColor: "#D3A17E"}}>
+                                <Image src={pic} width={300} 
+                                    style={{bottom:"25px"}}
+                                />
+                            </div>
+                            <Image src={dots} width={70} className="right-6 bottom-28"
+                                style={{position:"relative"}} 
                             />
                         </div>
                     </div>

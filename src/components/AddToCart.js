@@ -10,11 +10,11 @@ import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 export default function AddToCart() {
     return (
         <div className="mt-10">
-            <div className="grid grid-cols-4 divide-x gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-x gap-5">
                 <div>
                     <Image src={jac1} width={250} style={{position:"relative"}}/>
-                    <h3 style={{color:"#34251F"}} className="pt-2 font-medium">Leather Jacket <span className="pl-24">$120</span> </h3>
-                    <p style={{color:"rgba(0, 0, 0, 0.7)"}} className="text-sm pt-2">Leather Transcends Mere Fashion And Becomes A Symbol</p>
+                    <h3 style={{color:"#34251F"}} className="pt-2 font-medium">Leather Jacket <span className="lg:pl-24 md:pl-12 font-medium">$120</span> </h3>
+                    <p style={{color:"rgba(0, 0, 0, 0.7)"}} className="lg:text-sm text-base pt-2">Leather Transcends Mere Fashion And Becomes A Symbol</p>
                     <div className="inline-flex pt-2">
                         <FaStar color="yellow" />
                         <FaStar color="yellow" /> 
@@ -29,7 +29,7 @@ export default function AddToCart() {
                 </div>
                 <div>
                     <Image src={jac2} width={250} style={{position:"relative"}}/>
-                    <h3 className="pt-2 font-medium">Leather Jacket <span style={{color:"#D3A17E"}} className="pl-24 font-medium">$120</span> </h3>
+                    <h3 className="pt-2 font-medium">Leather Jacket <span style={{color:"#D3A17E"}} className="lg:pl-24 md:pl-12 font-medium">$120</span> </h3>
                     <p style={{color:"rgba(0, 0, 0, 0.7)"}} className="text-sm pt-2">Leather Transcends Mere Fashion And Becomes A Symbol</p>
                     <div className="inline-flex pt-2">
                         <FaStar color="yellow" />
@@ -45,7 +45,7 @@ export default function AddToCart() {
                 </div>
                 <div>
                     <Image src={jac3} width={250} style={{position:"relative"}}/>
-                    <h3 className="pt-2 font-medium">Leather Jacket <span style={{color:"#D3A17E"}} className="pl-24 font-medium">$120</span> </h3>
+                    <h3 className="pt-2 font-medium">Leather Jacket <span style={{color:"#D3A17E"}} className="lg:pl-24 md:pl-12 font-medium">$120</span> </h3>
                     <p style={{color:"rgba(0, 0, 0, 0.7)"}} className="text-sm pt-2">Leather Transcends Mere Fashion And Becomes A Symbol</p>
                     <div className="inline-flex pt-2">
                         <FaStar color="yellow" />
@@ -61,7 +61,7 @@ export default function AddToCart() {
                 </div>
                 <div>
                     <Image src={jac4} width={250} style={{position:"relative"}}/>
-                    <h3 className="pt-2 font-medium">Leather Jacket <span style={{color:"#D3A17E"}} className="pl-24 font-medium">$120</span> </h3>
+                    <h3 className="pt-2 font-medium">Leather Jacket <span style={{color:"#D3A17E"}} className="lg:pl-24 md:pl-12 font-medium">$120</span> </h3>
                     <p style={{color:"rgba(0, 0, 0, 0.7)"}} className="text-sm pt-2">Leather Transcends Mere Fashion And Becomes A Symbol</p>
                     <div className="inline-flex pt-2">
                         <FaStar color="yellow" />

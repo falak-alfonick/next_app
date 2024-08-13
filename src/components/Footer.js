@@ -3,14 +3,13 @@ import Image from 'next/image';
 import logo from '../../public/Black.png'
 import copy from '../../public/copy.png'
 import money from '../../public/money.png'
-import { FaTwitter, FaFacebookF, FaInstagram, FaGithub, FaRegCopyright, 
-    FaCcVisa, FaCcMastercard, FaCcPaypal, FaApplePay, FaGooglePay } from "react-icons/fa";
+import { FaTwitter, FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <div className="pt-16 pl-24 pb-10">
-            <div className="gap-7 inline-flex">
-                <div className="w-64">
+        <div className="pt-16 px-4 md:px-24 pb-10">
+            <div className="flex flex-col lg:flex-row gap-7 lg:gap-28">
+                <div className="lg:w-64">
                     <Image src={logo} style={{width:"180px", height:"25px"}}/>
                     <h4 className="text-slate-300 text-sm pt-4">We have clothes that suits your style and which you're proud to wear. From women to men.</h4>
                     <div className="inline-flex gap-1 pt-10">
@@ -28,7 +27,7 @@ export default function Footer() {
                         </button>
                     </div>
                 </div>
-                <div className="grid grid-cols-6 divide-x divide-transparent ">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap:6 lg:gap-8 divide-x divide-transparent w-full">
                     <div className="pl-6">
                         <h1 className="text-white font-medium">Company</h1>
                         <div className="text-slate-300 pt-3 text-sm">
@@ -85,11 +84,9 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="pt-20 inline-flex gap-2 text-white">
-                <Image src={copy} />
-            </div>
-            <div style={{position:"absolute", left:"800px"}} className="inline-flex pl-40 pt-14 gap-3">
-                <Image src={money} />
+            <div className="flex flex-col lg:flex-row px-4 lg:pt-24 pt-16 lg:gap-40">
+                <h1 className="text-white font-medium">Peter Sign © 2000-2023, All Rights Reserved</h1>
+                <Image src={money} className="lg:ml-64" />
             </div>
         </div>
     )

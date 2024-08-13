@@ -4,12 +4,12 @@ import best from '../../public/best.png'
 
 export default function BestLeather() {
     return (
-        <div className="mt-10 grid grid-cols-2 divide-x divide-transparent">
+        <div className="mt-10 grid lg:grid-cols-2 grid-cols-1 divide-x divide-transparent">
                 <div className="pl-3">
                     <Image src={best} width={450} />
                 </div>
                 <div>
-                    <h1 style={{color:"#34251F"}} className="text-5xl font-medium">Best <span style={{color:"#D3A17E"}}>Leather Jackets</span> And It, Started Since 2014</h1>
+                    <h1 style={{color:"#34251F"}} className="lg:text-5xl mt-5 lg:mt-0 text-3xl font-medium">Best <span style={{color:"#D3A17E"}}>Leather Jackets</span> And It, Started Since 2014</h1>
                     <h3 style={{color:"#34251F"}} className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque aliquid magnam 
                         beatae hic deserunt tempora iure illo labore nemo cupiditate aut, accusamus incidunt, 
                         non unde itaque minus expedita quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque aliquid magnam 
@@ -17,7 +17,7 @@ export default function BestLeather() {
                         non unde itaque minus expedita quis
                     </h3>
                     <div className="bg-white mt-8">
-                        <div className="gap-7 p-6 text-center inline-flex">
+                        <div className="flex flex-col lg:flex-row lg:gap-7 lg:p-6 text-center">
                             <div>
                                 <h1 className="text-4xl">2014</h1>
                                 <p style={{color:"#D3A17E"}} className="pt-2">David Moore Started</p>
@@ -35,7 +35,7 @@ export default function BestLeather() {
                         </div>
                     </div>
                     <div className="pt-8">
-                        <button style={{backgroundColor:"#34251F"}} className="pl-6 pr-6 pt-2.5 pb-2.5 text-sm text-white">Start Shopping Now</button>
+                        <button style={{backgroundColor:"#34251F"}} className="lg:px-6 px-2 pt-2.5 pb-2.5 lg:text-sm text-base text-white">Start Shopping Now</button>
                     </div>
                 </div>
             </div>
