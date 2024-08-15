@@ -10,7 +10,7 @@ export default function Content() {
         <div>
             <div className="pt-20 pl-24 pr-16">
                 <Deals />
-                <div className="mt-20">
+                <div className="mt-14">
                     <div className="justify-center text-center">
                         <h1 style={{color: "#34251F"}} className="lg:text-5xl text-3xl font-medium">Discover <span style={{color: "#D3A17E"}}>Latest Leather Fashion</span> <br/> New Arrivals</h1>
                         <p style={{color: "rgba(0, 0, 0, 0.7)"}} className="lg:pt-3 pt-4 font-normal text-lg">Step Into The World Of David Moore. Where Leather Transcends Mere Fashion And Becomes A Symbol Step <br/> Into The World Of David Moore</p>

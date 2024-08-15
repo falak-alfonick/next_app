@@ -11,7 +11,7 @@ import logo from "../../public/logo.png"
 export default function Header() {
     return (
         <div>
-            <div className="pt-12 lg:pl-24 pl-12 pr-14 lg:pb-12">
+            <div className="pt-12 lg:pl-24 pl-12 pr-14 lg:pb-6">
                 <div className="flex flex-col lg:flex-row">
                     <Image src={logo} style={{width:"224px", height:"37px"}}/>
                     <div className="flex flex-col md:flex-row lg:flex-row md:gap-5 lg:gap-11 gap-2 lg:pt-4 pt-3 lg:pl-32">

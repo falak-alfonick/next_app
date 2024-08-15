@@ -4,7 +4,7 @@ import best from '../../public/best.png'
 
 export default function BestLeather() {
     return (
-        <div className="mt-10 grid lg:grid-cols-2 grid-cols-1 divide-x divide-transparent">
+        <div className="grid lg:grid-cols-2 grid-cols-1 divide-x divide-transparent">
                 <div className="pl-3">
                     <Image src={best} width={450} />
                 </div>
