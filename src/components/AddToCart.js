@@ -104,9 +104,9 @@ export default function AddToCart() {
                         </div>
                         </CarouselItem>
                     </CarouselContent>
-                    <div className="flex place-items-center justify-center pt-44">
+                    <div className="flex pt-44">
                         <CarouselPrevious className="mt-44 left-14 lg:left-80 md:ml-48"/>
-                        <CarouselNext className="mt-44 right-28 lg:right-72 md:mr-44"/>
+                        <CarouselNext className="mt-44 right-28 lg:right-96 md:mr-44"/>
                     </div>
                 </Carousel>
             </div>
