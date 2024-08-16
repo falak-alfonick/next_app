@@ -32,13 +32,13 @@ export default function Header() {
                         </a>
                     </div>
                     <div className="relative pl-0 lg:pt-3 pt-6 lg:pl-14">
-                        <IoSearch color="black" size={19} className="absolute mt-2 ml-4 lg:mr-7 lg:right-72 lg:mt-2.5 text-neutral-500" />
+                        <IoSearch color="black" size={19} className="absolute mt-2 ml-4 md:mt-6 lg:mr-7 lg:right-72 lg:mt-2.5 text-neutral-500" />
                         <input
                             style={{backgroundColor: "#EEDDCC", borderWidth: 1, borderColor: "#34251F"}}
                             className="pl-10 pt-2 pb-2 pr-4 text-black text-sm placeholder-yellow-950"
                             placeholder="Search for products.."
                         />
-                        <div className="inline-flex lg:pt-0 pt-4 gap-4 lg:gap-3 lg:pl-5">
+                        <div className="inline-flex lg:pt-0 md:pl-6 pt-4 gap-4 lg:gap-3 lg:pl-5">
                             <FaRegUser color='#5e5252' size={20} className="mt-1"/>
                             <FaRegHeart color='#5e5252' size={20} className="mt-1"/>
                             <MdOutlineShoppingBag color="#5e5252" size={20} className="mt-1"/>
@@ -48,7 +48,7 @@ export default function Header() {
                 <div className=" flex flex-col lg:flex-row pt-24">
                     <div className="lg:max-w-screen-md">
                         <span className="bg-white text-sm lg:text-lg px-2 py-3 lg:px-7 font-lato font-medium">Explore Fashion Like Never Before</span>
-                        <h1 style={{color:"#34251F"}} className="pt-10 pb-5 text-3xl lg:text-5xl font-franl_ruhl_libre font-medium">
+                        <h1 style={{color:"#34251F"}} className="pt-10 pb-5 text-3xl md:text-4xl lg:text-5xl font-franl_ruhl_libre font-medium">
                             Elevate Your Style With <text className="text-black">David Moore</text> Where Leather Speaks Volumes
                         </h1>
                         <p style={{color: "rgba(0, 0, 0, 0.7)"}}>
@@ -63,7 +63,7 @@ export default function Header() {
                             <Image src={dots} width={70} className="left-56 md:left-60 lg:left-64 top-20"
                                 style={{position:"relative"}} 
                             />
-                            <div style={{borderBottomLeftRadius: "30%", backgroundColor: "#D3A17E"}}>
+                            <div className="md:w-72" style={{borderBottomLeftRadius: "30%", backgroundColor: "#D3A17E"}}>
                                 <Image src={pic} width={300} 
                                     style={{bottom:"25px"}}
                                 />

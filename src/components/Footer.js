@@ -46,7 +46,7 @@ export default function Footer() {
                             <h4 className="pb-1">Privacy Policy</h4>
                         </div>
                     </div>
-                    <div >
+                    <div className="lg:ml-0 md:ml-0 ml-5 mt-5 lg:mt-0 md:mt-0">
                         <h1 className="text-white font-medium">Faq</h1>
                         <div className="text-slate-300 pt-3 text-sm">
                             <h4 className="pb-1">Account</h4>
@@ -55,7 +55,7 @@ export default function Footer() {
                             <h4 className="pb-1">Payments</h4>
                         </div>
                     </div>
-                    <div >
+                    <div className="md:ml-5 lg:ml-0 mt-5 lg:mt-0">
                         <h1 className="text-white font-medium">Resources</h1>
                         <div className="text-slate-300 pt-3 text-sm">
                             <h4 className="pb-1">Free eBooks</h4>
@@ -64,7 +64,7 @@ export default function Footer() {
                             <h4 className="pb-1">Youtube Playlist</h4>
                         </div>
                     </div>
-                    <div >
+                    <div className="lg:ml-0 md:ml-0 ml-5 mt-5 lg:mt-0">
                         <h1 className="text-white font-medium">Customer Care</h1>
                         <div className="text-slate-300 pt-3 text-sm">
                             <h4 className="pb-1">About us</h4>
@@ -73,7 +73,7 @@ export default function Footer() {
                             <h4 className="pb-1">Product Care</h4>
                         </div>
                     </div>
-                    <div >
+                    <div className="mt-5 lg:mt-0">
                         <h1 className="text-white font-medium">Information</h1>
                         <div className="text-slate-300 pt-3 text-sm">
                             <h4 className="pb-1">Privacy Policy</h4>

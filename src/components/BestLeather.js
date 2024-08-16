@@ -17,24 +17,24 @@ export default function BestLeather() {
                         non unde itaque minus expedita quis
                     </h3>
                     <div className="bg-white mt-8">
-                        <div className="flex flex-col lg:flex-row lg:gap-7 lg:p-6 text-center">
+                        <div className="flex flex-col items-center justify-center md:mt-5 md:mx-10 md:flex-row lg:flex-row lg:gap-7 lg:p-6 text-center">
                             <div>
-                                <h1 className="text-4xl">2014</h1>
+                                <h1 className="text-4xl pt-4">2014</h1>
                                 <p style={{color:"#D3A17E"}} className="pt-2">David Moore Started</p>
                             </div>
-                            <h1 className="text-4xl">|</h1>
+                            <h1 className="text-4xl md:mx-5">|</h1>
                             <div>
-                                <h1 className="text-4xl"> 8900+</h1>
+                                <h1 className="text-4xl pt-4"> 8900+</h1>
                                 <p style={{color:"#D3A17E"}} className="pt-2">Product Sold</p>
                             </div>
-                            <h1 className="text-4xl">|</h1>
+                            <h1 className="text-4xl md:mx-5">|</h1>
                             <div>
-                                <h1 className="text-4xl"> 3105+</h1>
+                                <h1 className="text-4xl pt-4"> 3105+</h1>
                                 <p style={{color:"#D3A17E"}} className="pt-2">Best Reviews</p>
                             </div>
                         </div>
                     </div>
-                    <div className="pt-8">
+                    <div className="pt-8 flex md:items-center md:justify-center">
                         <button style={{backgroundColor:"#34251F"}} className="lg:px-6 px-2 pt-2.5 pb-2.5 lg:text-sm text-base text-white">Start Shopping Now</button>
                     </div>
                 </div>
